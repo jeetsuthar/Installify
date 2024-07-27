@@ -1,0 +1,183 @@
+/* Montserrat font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Roboto font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+:root {
+  --footer: #edf2f4;
+  --font_roboto: "Roboto", sans-serif;
+  --font_Montserrat: "Montserrat", sans-serif;
+  --taglineheading: #000000cd;
+  --taglinebackground: #a799e2;
+  --text-color: black; 
+}
+[data-theme="dark"] {
+  --taglinebackground: #333080;
+  --taglineheading: #dbdbdbfd;
+  --footer: #1b1b1d;
+  --font_roboto: "Roboto", sans-serif;
+  --font_Montserrat: "Montserrat", sans-serif;
+}
+.footer_section {
+  background-image: url(./images/lightmodde.svg);
+  background-blend-mode: hard-light;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top: 1px solid gray;
+}
+
+/* TOP  APPLICATION FOOTER DETAILS STYLES */
+
+.footer_top_content {
+  text-align: center;
+  padding: 5px;
+}
+.footer_top_content_logo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0 0 0;
+}
+.footer_top_content_logo .footer_logo {
+  height: 30px;
+  width: 30px;
+  object-fit: fill;
+}
+.footer_logo img {
+  height: auto;
+  max-width: 100%;
+}
+.footer_top_content_logo h2 {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: var(--text-color);
+  font-family: var(--font_Montserrat);
+}
+.footer_top_content_description {
+  font-size: 14px; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+}
+
+.footer_top_content_description_inner_tag {
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  background-color: var(--taglinebackground);
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: var(--taglineheading);
+  width: fit-content;
+  font-family: var(--font_roboto);
+  height: auto;
+  word-spacing: 1px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.footer_top_content_social_links {
+  margin: 5px 10px;
+  height: 30px;
+
+}
+.footer_top_content_social_links_inner_div a span{
+  letter-spacing: 1px;
+}
+.footer_top_content_social_links a {
+  color: var(--Blue);
+  text-decoration: none;
+  margin: 10px;
+  object-fit: fill;
+  font-weight: 600;
+}
+
+.footer_top_content_social_links a span {
+  color: var(--text-color);
+  font-size: 12px;
+  transition: all 0.5s ease;
+  font-weight: 600;
+  font-family: "Exo 2", sans-serif;
+}
+.footer_top_content_social_links a:hover span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--Blue);
+}
+
+.footer_bottom_content {
+  display: flex;
+  flex-wrap: wrap;
+  flex:1 300px;
+   grid-template-columns: repeat(auto-fill, 200px); 
+  place-content: center;
+  width: auto;
+  gap: 10px;
+}
+
+.footer_links_parts {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.footer_links_parts_heading {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.footer_links_parts_heading h3 {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: var(--font_roboto);
+  color: #1b263b;
+}
+
+.footer_links_parts_multiple_link {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.footer_links_parts_multiple_link ul {
+  text-align: left;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.footer_links_parts_multiple_link ul a {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+  color: #1b263b;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.footer_links_parts_multiple_link ul a:hover {
+  color: var(--Blue);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .footer_links_parts {
+    max-width: 100%;
+  }
+  .footer_top_content_description {
+    height: auto;
+  }
+}
+
+/* copy rights */
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(39, 38, 38);
+  padding: 0 0 10px 0;
+  font-weight: 500;
+  font-size: 14px;
+}

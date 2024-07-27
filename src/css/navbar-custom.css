@@ -1,0 +1,24 @@
+/* Center the logo in the navbar */
+.navbar__brand {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  
+  /* Adjust logo styling if needed */
+  .navbar__logo img {
+    max-height: 50px; /* Adjust as needed */
+  }
+  
+  /* Ensure the navbar items are aligned correctly */
+  .navbar__items {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  /* Align items in the navbar */
+  .navbar__items > * {
+    margin: 0 10px; /* Adjust spacing as needed */
+  }
+  
