@@ -6,7 +6,7 @@ position: 0
 <!-- Install the Python in the Windows  -->
 
 import First from '../../../static/Images/Python/First_step.jpg';
-import Second from '../../../static/Images/Python/Second_Step.png';
+import Second from '../../../static/Images/Python/Second_step.png';
 import Third from '../../../static/Images/Python/Third_step.png';
 import Fourth from '../../../static/Images/Python/final_step.png';
 
@@ -18,7 +18,7 @@ import Fourth from '../../../static/Images/Python/final_step.png';
 
 **Step 1** : Open your web browser and visit [https://www.python.org/downloads/](https://www.python.org/downloads/) .
 
-**Step 2** : `Look for the latest Python 3 version (recommended)` and click on the appropriate installer for your operating system .
+**Step 2** : `Look for the latest Python 3 version recommended)` and click on the appropriate installer for your operating system .
 
 **Step 3** : Once the download is complete,` double-click the installer file` to start the installation process.
 
