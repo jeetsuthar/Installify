@@ -72,7 +72,15 @@ const config = {
   ],
 
   themeConfig: {
-    image: "img/docusaurus-social-card.jpg",
+    announcementBar: {
+      id: 'announcementBar',
+      content:
+        'Website Under Development!',
+      backgroundColor: '#a799e2',
+      textColor: '#000',
+      isCloseable: true,
+    },
+    // image: "img/docusaurus-social-card.jpg",
     navbar: {
       title: "Installify",
       // logo: {

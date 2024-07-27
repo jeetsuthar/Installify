@@ -200,7 +200,7 @@ const Home = () => {
   return (
     <>
       {/* FIRST SECTION START TO BE HERE */}
-      <div className="background_image" data-aos="fade-down">
+      <div className="background_image" >
         <section className="hero_section" >
           {/* left side data  */}
           <div
@@ -209,6 +209,7 @@ const Home = () => {
             // data-aos-anchor="#example-anchor"
             // data-aos-offset="500"
             // data-aos-duration="500"
+            data-aos="fade-right"
           >
             <div className="Text_area">
               <h1 className="tag_line">
@@ -279,7 +280,7 @@ const Home = () => {
           </div>
 
           {/* right side data  */}
-          <div className="right_section">
+          <div className="right_section" data-aos="fade-left">
             <div
               className="Img_division"
               // data-aos="fade-up"
