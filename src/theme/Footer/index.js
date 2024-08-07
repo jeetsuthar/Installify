@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./style.css";
+import Link from "@docusaurus/Link";
 const Footer = () => {
   return (
     <footer>
@@ -86,25 +87,25 @@ const Footer = () => {
                 <Link to="/docs/Programming/python/">
                   <li>Python</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Programming/PHP/">
                   <li>PHP</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Programming/Java/">
                   <li>Java</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Programming/JavaScript/">
                   <li>Javascript</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Programming/C++/">
                   <li>C++</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Programming/Swift/">
                   <li>Swift</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Programming/Kotlin/">
                   <li>Kotlin</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Programming/Typescript/">
                   <li>Typescript</li>
                 </Link>
               </ul>
@@ -117,28 +118,28 @@ const Footer = () => {
             </div>
             <div className="footer_links_parts_multiple_link">
               <ul>
-                <Link to="">
+                <Link to="/docs/Code_Editors/vs_code/">
                   <li>VS Code</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Code_Editors/PyCharm/">
                   <li>PyCharm</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Code_Editors/InterlliJ_IDEA/">
                   <li>IntelliJ IDEA</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Code_Editors/Eclipse/">
                   <li>Eclipse</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Code_Editors/RStudio/">
                   <li>RStudio</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Code_Editors/Xcode/">
                   <li>Xcode</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Code_Editors/Notepad/">
                   <li>Notepad++</li>
                 </Link>
-                <Link to="">
+                <Link to="/docs/Code_Editors/Android_studio/">
                   <li>Android Studio</li>
                 </Link>
               </ul>

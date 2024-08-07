@@ -18,6 +18,7 @@ const Home = () => {
     {
       language: "Python",
       logo: "https://cdn-icons-png.flaticon.com/128/5968/5968350.png",
+      redirecting: "./docs/Programming/python/"
     },
     {
       language: "Java",
@@ -200,8 +201,8 @@ const Home = () => {
   return (
     <>
       {/* FIRST SECTION START TO BE HERE */}
-      <div className="background_image" >
-        <section className="hero_section" >
+      <div className="background_image">
+        <section className="hero_section">
           {/* left side data  */}
           <div
             className="left_section"
@@ -234,7 +235,7 @@ const Home = () => {
                 <p>
                   Whether you're just starting or you're a seasoned pro,
                   Installify simplifies the process of setting up
-                  <span className="changable_text " >
+                  <span className="changable_text ">
                     <Typewriter
                       words={[
                         "Web Development !",
@@ -294,33 +295,43 @@ const Home = () => {
       </div>
 
       {/* SECOND SECTION START TO BE HERE */}
-      <section className="second_section" >
-        <h1 className="Section_2_heading" data-aos="zoom-in"  data-aos-duration="500">
+      <section className="second_section">
+        <h1
+          className="Section_2_heading"
+          data-aos="zoom-in"
+          data-aos-duration="500"
+        >
           Programming <span>Languages</span>
         </h1>
 
-        <div className="Marquee" >
+        <div className="Marquee">
           <Marquee
             direction="right"
             pauseOnHover="true"
             autoFill="true"
-            speed={100}
-            // gradient
-            // gradientColor="lightgray"
-            // gradientWidth={"50px"}
+            speed={120}
+            gradient
+            gradientColor="var(--background)"
+            gradientWidth={"100px"}
           >
             <div className="Tech_name">
               {Languages.map((item, index) => (
                 <div key={index} className="Individual_container">
-                  <img src={item.logo} alt={item.language} />
-                  <p>{item.language}</p>
+                  <a href={item.redirecting}>
+                    <img src={item.logo} alt={item.language} />
+                    <p>{item.language}</p>
+                  </a>
                 </div>
               ))}
             </div>
           </Marquee>
         </div>
 
-        <h1 className="Section_2_heading" data-aos="zoom-in"  data-aos-duration="500" >
+        <h1
+          className="Section_2_heading"
+          data-aos="zoom-in"
+          data-aos-duration="500"
+        >
           Most <span>Popular</span> Tools
         </h1>
         <div className="Marquee">
@@ -328,10 +339,10 @@ const Home = () => {
             direction="left"
             pauseOnHover="true"
             autoFill="true"
-            speed={100}
-            // gradient
-            // gradientColor="lightgray"
-            // gradientWidth={"50px"}
+            speed={120}
+            gradient
+            gradientColor="var(--background)"
+            gradientWidth={"100px"}
           >
             <div className="Tech_name">
               {Software.map((item, index) => (

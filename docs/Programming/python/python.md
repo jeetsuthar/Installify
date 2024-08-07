@@ -1,10 +1,12 @@
 ---
-title: python
-position: 0
+title: Python
+sidebar_position: 1
+description : ""
+
 ---
 
 <!-- Install the Python in the Windows  -->
-
+### Python for multiple operating System
 import First from '../../../static/Images/Python/First_step.jpg';
 import Second from '../../../static/Images/Python/Second_step.png';
 import Third from '../../../static/Images/Python/Third_step.png';

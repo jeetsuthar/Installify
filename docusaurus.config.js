@@ -93,8 +93,8 @@ const config = {
           label: "Docs",
           position: "left",
           items: [
-            { label: "Programming Languages", to: "docs/Programming/python" },
-            { label: "IDEs and Code Editors", to: "docs/intro" },
+            { label: "Programming Languages", to: "docs/category/programming-" },
+            { label: "IDEs and Code Editors", to: "docs/category/code_editors" },
             { label: "Version Control Systems", to: "docs/intro" },
             { label: "Web Development Frameworks", to: "docs/intro" },
             { label: "Database Management Systems", to: "docs/intro" },
