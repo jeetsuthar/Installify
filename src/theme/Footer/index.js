@@ -87,25 +87,25 @@ const Footer = () => {
                 <Link to="/docs/Programming/python/">
                   <li>Python</li>
                 </Link>
-                <Link to="/docs/Programming/PHP/">
+                <Link to="/docs/Programming/PHP">
                   <li>PHP</li>
                 </Link>
-                <Link to="/docs/Programming/Java/">
+                <Link to="/docs/Programming/java">
                   <li>Java</li>
                 </Link>
-                <Link to="/docs/Programming/JavaScript/">
+                <Link to="/docs/Programming/JavaScript">
                   <li>Javascript</li>
                 </Link>
-                <Link to="/docs/Programming/C++/">
+                <Link to="/docs/Programming/CPlusPlus">
                   <li>C++</li>
                 </Link>
-                <Link to="/docs/Programming/Swift/">
+                <Link to="/docs/Programming/Swift">
                   <li>Swift</li>
                 </Link>
-                <Link to="/docs/Programming/Kotlin/">
+                <Link to="/docs/Programming/Kotlin">
                   <li>Kotlin</li>
                 </Link>
-                <Link to="/docs/Programming/Typescript/">
+                <Link to="/docs/Programming/TypeScript">
                   <li>Typescript</li>
                 </Link>
               </ul>
@@ -118,28 +118,28 @@ const Footer = () => {
             </div>
             <div className="footer_links_parts_multiple_link">
               <ul>
-                <Link to="/docs/Code_Editors/vs_code/">
+                <Link to="">
                   <li>VS Code</li>
                 </Link>
-                <Link to="/docs/Code_Editors/PyCharm/">
+                <Link to="">
                   <li>PyCharm</li>
                 </Link>
-                <Link to="/docs/Code_Editors/InterlliJ_IDEA/">
+                <Link to="">
                   <li>IntelliJ IDEA</li>
                 </Link>
-                <Link to="/docs/Code_Editors/Eclipse/">
+                <Link to="">
                   <li>Eclipse</li>
                 </Link>
-                <Link to="/docs/Code_Editors/RStudio/">
+                <Link to="">
                   <li>RStudio</li>
                 </Link>
-                <Link to="/docs/Code_Editors/Xcode/">
+                <Link to="">
                   <li>Xcode</li>
                 </Link>
-                <Link to="/docs/Code_Editors/Notepad/">
+                <Link to="">
                   <li>Notepad++</li>
                 </Link>
-                <Link to="/docs/Code_Editors/Android_studio/">
+                <Link to="">
                   <li>Android Studio</li>
                 </Link>
               </ul>
